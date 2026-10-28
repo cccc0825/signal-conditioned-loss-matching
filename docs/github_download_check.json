@@ -1,0 +1,111 @@
+{
+  "status": "PASS_AFTER_LAUNCHER_FIX",
+  "checked_utc": "2026-10-28T12:09:06.826416+00:00",
+  "source_repository": "https://github.com/cccc0825/signal-conditioned-loss-matching",
+  "downloaded_commit": "b246151a6aeae8618fa1df8a574a02c6e598828c",
+  "anonymous_archive_sha256": "d60946acc04ede35881c6dee4d3994a60ec5d996d7d51b6ce4fe2f7af10450bb",
+  "clean_environment": true,
+  "main_evaluation": {
+    "status": "PASS",
+    "metric_rows": 7453,
+    "maximum_absolute_difference": 0.0,
+    "files": {
+      "evaluation_rows.json": {
+        "rows": 5452,
+        "maximum_absolute_difference": 0.0
+      },
+      "skt_evaluation_rows.json": {
+        "rows": 2001,
+        "maximum_absolute_difference": 0.0
+      }
+    },
+    "prediction_files": 771,
+    "python": "3.12.14 (main, Aug 14 2026, 15:24:41) [Clang 22.1.3 ]",
+    "finished_utc": "2026-10-28T12:05:01.229078+00:00"
+  },
+  "optional_evaluation": {
+    "status": "PASS_AFTER_LAUNCHER_FIX",
+    "source_commit": "b246151a6aeae8618fa1df8a574a02c6e598828c",
+    "download": "anonymous GitHub codeload ZIP, independently extracted",
+    "completed_utc": "2026-10-28T12:06:12.782574+00:00",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.12.14",
+    "dependency_installs": {
+      "main": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pandas": "3.0.5",
+        "matplotlib": "3.11.2",
+        "threadpoolctl": "3.6.0"
+      },
+      "skt": {
+        "numpy": "2.3.5",
+        "Cython": "3.3.0",
+        "setuptools": "84.0.0",
+        "wheel": "0.48.0",
+        "goodpoints": "0.2.5"
+      }
+    },
+    "development_replay": {
+      "configurations": 24,
+      "metrics": [
+        {
+          "file": "development_search.json",
+          "configurations": 12,
+          "maximum_validation_nmse_difference": 0.0
+        },
+        {
+          "file": "development_weighted_search.json",
+          "configurations": 12,
+          "maximum_validation_nmse_difference": 0.0
+        }
+      ],
+      "selection_comparison": {
+        "status": "PASS",
+        "dictionary_files_compared": 196,
+        "includes_author_skt_rebuild": false,
+        "finished_utc": "2026-10-28T12:03:45.074620+00:00"
+      }
+    },
+    "author_skt": {
+      "source_build_exit_code": 0,
+      "synthetic_parity_cases": 8,
+      "maximum_gram_error": 3.552713678800501e-15,
+      "mapping": {
+        "kind": "synthetic_unit_only",
+        "d": 21,
+        "q": 7,
+        "s": 0.8,
+        "wrapper_scale": "s*sqrt(d)",
+        "wrapper_labels": "Y*sqrt(2/q)",
+        "max_absolute_gram_error": 1.7763568394002505e-15,
+        "pass": true
+      },
+      "selection_comparison": {
+        "status": "PASS",
+        "dictionary_files_compared": 256,
+        "includes_author_skt_rebuild": true,
+        "finished_utc": "2026-10-28T12:05:05.152151+00:00"
+      }
+    },
+    "discovered_bug": {
+      "original_exit_code": 1,
+      "symptom": "ModuleNotFoundError: numpy",
+      "cause": "Path.resolve dereferences venv/bin/python symlink, invoking base Python without the SKT environment",
+      "fix": "Use Path(...).expanduser().absolute() to preserve the virtual-environment interpreter path",
+      "fixed_exit_code": 0
+    }
+  },
+  "content_audit": {
+    "initial_public_files": 38,
+    "archive_members_including_author_source": 407,
+    "frozen_input_manifest_entries": 352,
+    "cross_project_or_private_content_findings": []
+  },
+  "repairs": [
+    "Preserve the optional SKT virtual environment interpreter instead of resolving its symlink.",
+    "Add unchanged historical holdout quality rules, amendment and membership evidence, with public path mapping.",
+    "Clarify download, working-directory and tested-platform instructions."
+  ],
+  "scope": "Replay from the supplied processed real-robot arrays, including rule development, dictionary rebuilding, KRR fitting, metrics, tables and figures. No new raw-to-results or hardware experiment; other operating systems were not tested."
+}

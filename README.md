@@ -6,7 +6,14 @@ The study asks when matching a loss-related kernel better translates into better
 
 ## Reproduce the reported evaluation
 
-Use Python 3.12. The main replay runs on CPU and needs no raw dataset download or optional Cython baseline installation.
+Download and extract the GitHub ZIP, then open a terminal in the extracted repository folder. Alternatively:
+
+```bash
+git clone https://github.com/cccc0825/signal-conditioned-loss-matching.git
+cd signal-conditioned-loss-matching
+```
+
+Use Python 3.12. The main replay runs on CPU and needs no raw dataset download or optional Cython baseline installation. The commands below use a macOS/Linux shell. The clean-download check was run on macOS arm64; other operating systems have not been tested.
 
 ```bash
 python3.12 -m venv .venv
@@ -20,7 +27,7 @@ Each run creates a fresh `runs/<UTC timestamp>/` directory. The program verifies
 
 The replay reconstructs predictions from frozen selected indices; it does not merely copy existing predictions. It includes all reported budgets (64, 128, 256), shared/retuned predictors, baselines, ablations, retrospective tests and four additional MELFA records. Runtime and numeric differences depend on hardware and BLAS; the verification tolerance is `atol=rtol=1e-10`.
 
-The public package was checked on 2026-10-28: all 771 predictions and 7,453 metric rows matched the archived values exactly (maximum absolute difference 0.0); 196 rebuilt non-SKT dictionary files matched exactly. See [docs/reproduction_check.json](docs/reproduction_check.json) for the tested scope.
+A fresh anonymous GitHub download was tested on 2026-10-28 in newly created Python environments. All 771 predictions and 7,453 metric rows matched the archived values exactly (maximum absolute difference 0.0). The 24 development configurations were replayed, the author SKT source was compiled, and all 256 dictionaries were rebuilt and matched exactly. The check exposed and fixed a launcher bug that bypassed the optional SKT virtual environment. See [docs/github_download_check.json](docs/github_download_check.json) for this check and [docs/reproduction_check.json](docs/reproduction_check.json) for the earlier, narrower release check.
 
 ## Rebuild the selections
 

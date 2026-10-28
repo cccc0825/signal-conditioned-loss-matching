@@ -1,0 +1,95 @@
+{
+  "freeze_kind": "prospective_membership_and_quality_gate_only",
+  "frozen_utc": "2026-09-15T04:02:59.099235+00:00",
+  "archive_path": "work/research/data/LIP4RID.zip",
+  "archive_sha256": "527ec997b8f957f102e07f132f2663156ffcfe9366ed1c9f1d6e14ad21409288",
+  "archive_bytes": 541538288,
+  "data_source": "https://zenodo.org/records/12516500",
+  "license": "CC-BY-SA-4.0",
+  "members": [
+    {
+      "record_id": "MELFA_range0.5_seed6",
+      "source_member": "Data/Robots/MELFA_RV4FRL/Experiments/SumOfSin__w_f0.02__num_sin100__pos_range_0.5__50seconds__seed6.pkl",
+      "uncompressed_bytes": 2317893,
+      "compressed_bytes": 1987904,
+      "zip_crc32": "3c81624c",
+      "condition_position_range": "0.5",
+      "excitation_seed": 6,
+      "historical_exclusion_reason": "not in dataset README declared benchmark seed list; decided before modeling",
+      "same_seed_exposed_other_condition_records": [
+        "MELFA_range1.4_seed6"
+      ],
+      "prior_predictive_use_found": false,
+      "payload_unopened": true,
+      "disposition": "retain_all_as_holdout_candidate_until_predeclared_quality_reveal"
+    },
+    {
+      "record_id": "MELFA_range1.4_seed0",
+      "source_member": "Data/Robots/MELFA_RV4FRL/Experiments/SumOfSin__w_f0.02__num_sin100__pos_range_1.4__50seconds__seed0.pkl",
+      "uncompressed_bytes": 2316133,
+      "compressed_bytes": 1994945,
+      "zip_crc32": "277b7b58",
+      "condition_position_range": "1.4",
+      "excitation_seed": 0,
+      "historical_exclusion_reason": "not in dataset README declared benchmark seed list; decided before modeling",
+      "same_seed_exposed_other_condition_records": [
+        "MELFA_range0.5_seed0"
+      ],
+      "prior_predictive_use_found": false,
+      "payload_unopened": true,
+      "disposition": "retain_all_as_holdout_candidate_until_predeclared_quality_reveal"
+    },
+    {
+      "record_id": "MELFA_range1.4_seed10",
+      "source_member": "Data/Robots/MELFA_RV4FRL/Experiments/SumOfSin__w_f0.02__num_sin100__pos_range_1.4__50seconds__seed10.pkl",
+      "uncompressed_bytes": 2286653,
+      "compressed_bytes": 1969947,
+      "zip_crc32": "dbee6d59",
+      "condition_position_range": "1.4",
+      "excitation_seed": 10,
+      "historical_exclusion_reason": "not in dataset README declared benchmark seed list; decided before modeling",
+      "same_seed_exposed_other_condition_records": [
+        "MELFA_range0.5_seed10"
+      ],
+      "prior_predictive_use_found": false,
+      "payload_unopened": true,
+      "disposition": "retain_all_as_holdout_candidate_until_predeclared_quality_reveal"
+    },
+    {
+      "record_id": "MELFA_range1.4_seed5",
+      "source_member": "Data/Robots/MELFA_RV4FRL/Experiments/SumOfSin__w_f0.02__num_sin100__pos_range_1.4__50seconds__seed5.pkl",
+      "uncompressed_bytes": 579893,
+      "compressed_bytes": 484597,
+      "zip_crc32": "e5b571dd",
+      "condition_position_range": "1.4",
+      "excitation_seed": 5,
+      "historical_exclusion_reason": "not in dataset README declared benchmark seed list; decided before modeling",
+      "same_seed_exposed_other_condition_records": [],
+      "prior_predictive_use_found": false,
+      "payload_unopened": true,
+      "disposition": "retain_all_as_holdout_candidate_until_predeclared_quality_reveal"
+    }
+  ],
+  "member_count": 4,
+  "membership_sha256": "fc5ee8943b69668a2b953a8cceb8a1042ab075c607c424aa6cdba504c6c06c6a",
+  "scope": "Same-source whole records with no recorded prior model-development/predictive use in accessible project artifacts; not an independent laboratory or hardware acquisition.",
+  "reveal_prerequisite": "Root must first freeze all method variants, hyperparameters, normalization, signal window and units, endpoints and analysis rules. No candidate payload read before root explicitly authorizes the single coordinated quality reveal.",
+  "quality_rules_document": "holdout_quality_rules.md",
+  "quality_rules_sha256": "9201e5919dad540556d6b363bcb70398f746978fc163a83cbaae5374726a9f41",
+  "historical_evidence_sha256": {
+    "outputs/robot_dynamics/data/manifest.json": "8b6527a29f1c97f4378415fb74d4b47cb8c89eaf5d5ac30f813b6a262a08a7f6",
+    "outputs/robot_dynamics/code/prepare_data.py": "afdce8fe041709e1d5d294f75781a6eed4cc1f8dd0230cb591d6e0939cbfe9a8",
+    "outputs/robot_dynamics/code/experiment.py": "aeddff237777eda917a388ff9cd2529719309ca33e022721c4deed87c6f36c0b",
+    "outputs/robot_dynamics/research/protocol.md": "1e063a662524df1c8029695374f3241735e5e28154c7c15ec1b9b968bd8bc3eb",
+    "outputs/robot_dynamics/logs/data_preparation.log": "742af9864b0ebed08959d7f227d3acc6e2298b752a03c9dee3d7bd7ca7883ce2",
+    "outputs/robot_dynamics_final/code/prepare_revision.py": "e8e9e42cd613d6cba9be3564a15d399da368b79871f3bdcdb8664813555c6398",
+    "outputs/robot_dynamics_final/research/protocol_unused_rows.md": "c3bff7345aac09225b80fe126b43da33d793ece415e882d76f5445b45d44bc76",
+    "work/revision/data_audit/audit.py": "61b4e4237004e75d93070b287fb634521f18d73cbfc7e059bb0f3915f583a9b0",
+    "work/revision/data_audit/evidence.json": "46f3a71d824dd82fa97dd8fb78c9dc946c084ec4026c8e183be524daefaa4473"
+  },
+  "limitations": [
+    "No complete OS access log or full interactive history exists in the audited artifact set; absence of recorded predictive use is not a cryptographic proof of never opening the data.",
+    "Parent and user instruction preserve all four candidates including the short file; metadata size is not an eligibility filter.",
+    "A shared seed across amplitude conditions can couple trajectory designs; four records do not establish four independent acquisition sessions."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "amended_utc": "2026-09-15T04:19:11.299284+00:00",
+  "status": "pre-reveal; quality sealed; awaiting root full-freeze notice",
+  "authorization": "Root instruction after development completed; candidate records and all targets remain unopened in this subtask.",
+  "original_membership_file": "holdout_membership_freeze.json",
+  "original_membership_file_sha256": "9ce131de0030df9020934ad6263e61e985dbc3a10583bf19a20a104e1ce9d53a",
+  "unchanged_membership_sha256": "fc5ee8943b69668a2b953a8cceb8a1042ab075c607c424aa6cdba504c6c06c6a",
+  "old_rules_file": "holdout_quality_rules.md",
+  "old_rules_sha256": "9201e5919dad540556d6b363bcb70398f746978fc163a83cbaae5374726a9f41",
+  "new_rules_file": "holdout_quality_rules_v2.md",
+  "new_rules_sha256": "0dea0bc59063cda8ce8a83d10d6eb605a85638fdebf3fe961d3482bd59674882",
+  "supersedes": "Generic v1 time/window gate for this index-based 31-row method; all other membership and no-outcome controls remain.",
+  "candidate_payloads_opened": 0,
+  "candidate_predictions_run": 0,
+  "source_evidence": {
+    "work/signal_extension/code/prepare_development.py": "14b05074e2e03445e38eae2838d50c0db39135fe543ab5e3ad5506e8e46727db",
+    "work/signal_extension/data/MELFA_feature_config.json": "d08d4c988b54567e023b2bb6988759d2f2d853f6969b27cc32e7cc94682217b9"
+  },
+  "reason": "Exposed development code and configuration use standardized derivative-energy descriptors in source-row units, segment at index gaps, and perform nearest-endpoint extension; they assign no Hz."
+}

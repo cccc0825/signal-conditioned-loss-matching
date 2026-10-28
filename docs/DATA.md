@@ -22,3 +22,5 @@ The additional records are `MELFA_range0.5_seed6`, `MELFA_range1.4_seed0`, `MELF
 The offline signal descriptor uses a centered 31-original-row moving average of normalized squared joint velocity and acceleration. Windows stop at nonconsecutive source dataframe indices and use nearest-endpoint extension inside each segment. No temporal sampling rate or physical Hz is inferred for recordings without timestamps. The predictor only uses q, dq and ddq.
 
 The supplied processed arrays are the input boundary of the tested one-command replay. `code/source_reader.py` supplies the raw archive reader and historical array conversion; `code/prepare_development.py` reconstructs the training/validation descriptors if `raw/LIP4RID.zip` is supplied in an extracted working directory. Exact raw-to-holdout reconstruction is documented by the membership and quality ledger; the public one-command replay does not claim to perform a new raw-to-results experiment.
+
+The unchanged historical v1/v2 quality rules, amendment, membership and freeze records are available in [quality_history/README.md](quality_history/README.md), including their hashes and public-path mapping.

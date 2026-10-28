@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "frozen_utc": "2026-09-15T04:19:11.299284+00:00",
+  "membership_file": "holdout_membership_freeze.json",
+  "membership_file_sha256": "9ce131de0030df9020934ad6263e61e985dbc3a10583bf19a20a104e1ce9d53a",
+  "membership_sha256": "fc5ee8943b69668a2b953a8cceb8a1042ab075c607c424aa6cdba504c6c06c6a",
+  "member_count": 4,
+  "quality_rules_file": "holdout_quality_rules_v2.md",
+  "quality_rules_sha256": "0dea0bc59063cda8ce8a83d10d6eb605a85638fdebf3fe961d3482bd59674882",
+  "amendment_file": "quality_amendment_v2.json",
+  "amendment_file_sha256": "b668480ce31544b4fa3a171c46518fbba5df3d7fb6c2c3f736f94ccda8c19097",
+  "quality_criteria": {
+    "required_column_prefixes": [
+      "q_filt",
+      "dq_filt",
+      "ddq_filt",
+      "tau_filt"
+    ],
+    "joint_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "numeric_finite_required": true,
+    "numeric_source_index_finite_strictly_increasing": true,
+    "index_conversion_must_be_lossless": true,
+    "gap_rule": "new segment where next original index minus current original index is not 1",
+    "window_rows": 31,
+    "minimum_segments_with_31_consecutive_rows": 1,
+    "window_alignment": "centered; 15 rows each side",
+    "edge_extension": "nearest endpoint within segment",
+    "short_segments_and_edges": "retain all original rows if the record has at least one qualifying segment; do not cross gaps",
+    "physical_timestamp_required": false,
+    "units": "dimensionless standardized derivative energies; source-row window, no seconds or Hz",
+    "performance_based_exclusion": false
+  },
+  "reveal_authorized": false,
+  "pending": "Full root method/endpoint/analysis freeze plus subsequent explicit quality-reveal notice"
+}

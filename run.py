@@ -77,7 +77,9 @@ def main():
         if a.development:
             for name in ['develop.py','develop_weighted.py']:run_script(out,name)
         for name in ['build_evaluation.py','prepare_skt_comparison.py']:run_script(out,name)
-        if a.skt_python:run_script(out,'run_skt_aligned.py',str(Path(a.skt_python).resolve()))
+        # Keep the virtual-environment entry point; resolving its symlink can
+        # bypass the environment where the author baseline was installed.
+        if a.skt_python:run_script(out,'run_skt_aligned.py',str(Path(a.skt_python).expanduser().absolute()))
         compare_selections(out,bool(a.skt_python))
     print('Outputs:',out)
 if __name__=='__main__':main()
