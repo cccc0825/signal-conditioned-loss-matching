@@ -1,0 +1,156 @@
+{
+  "PANDA_random": {
+    "robot": "PANDA",
+    "method": "random",
+    "scale": 1.0,
+    "lambda_mean": 0.0001,
+    "val_nmse": 0.4819873920627276
+  },
+  "PANDA_kcenter": {
+    "robot": "PANDA",
+    "method": "kcenter",
+    "scale": 1.0,
+    "lambda_mean": 0.0001,
+    "val_nmse": 0.5018204748729609
+  },
+  "PANDA_variance": {
+    "robot": "PANDA",
+    "method": "variance",
+    "scale": 1.0,
+    "lambda_mean": 1e-05,
+    "val_nmse": 0.4732015522663471
+  },
+  "PANDA_gemss_mo": {
+    "robot": "PANDA",
+    "method": "gemss_mo",
+    "scale": 1.0,
+    "lambda_mean": 0.0001,
+    "val_nmse": 0.4287442578657748
+  },
+  "PANDA_centered": {
+    "robot": "PANDA",
+    "method": "centered",
+    "scale": 1.0,
+    "lambda_mean": 0.0001,
+    "val_nmse": 0.459308942225614
+  },
+  "PANDA_full": {
+    "robot": "PANDA",
+    "method": "full",
+    "scale": 1.0,
+    "lambda_mean": 0.0001,
+    "val_nmse": 0.47036287000210286
+  },
+  "PANDA_signal_task": {
+    "robot": "PANDA",
+    "method": "signal_task",
+    "scale": 1.0,
+    "lambda_mean": 1e-05,
+    "val_nmse": 0.4577445180831267
+  },
+  "PANDA_residual_only": {
+    "robot": "PANDA",
+    "method": "residual_only",
+    "scale": 1.0,
+    "lambda_mean": 0.0001,
+    "val_nmse": 0.4515548754800795
+  },
+  "PANDA_random_bins": {
+    "robot": "PANDA",
+    "method": "random_bins",
+    "scale": 1.0,
+    "lambda_mean": 0.0001,
+    "val_nmse": 0.5002238200835624
+  },
+  "PANDA_signal_static": {
+    "robot": "PANDA",
+    "method": "signal_static",
+    "scale": 1.0,
+    "lambda_mean": 1e-05,
+    "val_nmse": 0.45513903697233477
+  },
+  "PANDA_weighted_random": {
+    "robot": "PANDA",
+    "method": "weighted_random",
+    "scale": 1.0,
+    "lambda_mean": 0.0001,
+    "val_nmse": 0.49988966177161975
+  },
+  "MELFA_random": {
+    "robot": "MELFA",
+    "method": "random",
+    "scale": 4.0,
+    "lambda_mean": 0.0001,
+    "val_nmse": 0.17523445980419053
+  },
+  "MELFA_kcenter": {
+    "robot": "MELFA",
+    "method": "kcenter",
+    "scale": 2.0,
+    "lambda_mean": 0.001,
+    "val_nmse": 0.18719382367085577
+  },
+  "MELFA_variance": {
+    "robot": "MELFA",
+    "method": "variance",
+    "scale": 2.0,
+    "lambda_mean": 0.001,
+    "val_nmse": 0.18946172810616024
+  },
+  "MELFA_gemss_mo": {
+    "robot": "MELFA",
+    "method": "gemss_mo",
+    "scale": 4.0,
+    "lambda_mean": 0.0001,
+    "val_nmse": 0.1723020922478935
+  },
+  "MELFA_centered": {
+    "robot": "MELFA",
+    "method": "centered",
+    "scale": 8.0,
+    "lambda_mean": 1e-05,
+    "val_nmse": 0.18959200469296203
+  },
+  "MELFA_full": {
+    "robot": "MELFA",
+    "method": "full",
+    "scale": 2.0,
+    "lambda_mean": 0.001,
+    "val_nmse": 0.17015266618917624
+  },
+  "MELFA_signal_task": {
+    "robot": "MELFA",
+    "method": "signal_task",
+    "scale": 8.0,
+    "lambda_mean": 1e-05,
+    "val_nmse": 0.18250741523684166
+  },
+  "MELFA_residual_only": {
+    "robot": "MELFA",
+    "method": "residual_only",
+    "scale": 8.0,
+    "lambda_mean": 1e-05,
+    "val_nmse": 0.18320062684155952
+  },
+  "MELFA_random_bins": {
+    "robot": "MELFA",
+    "method": "random_bins",
+    "scale": 8.0,
+    "lambda_mean": 1e-05,
+    "val_nmse": 0.18607894962933735
+  },
+  "MELFA_signal_static": {
+    "robot": "MELFA",
+    "method": "signal_static",
+    "scale": 8.0,
+    "lambda_mean": 1e-05,
+    "val_nmse": 0.1780291518777008
+  },
+  "MELFA_weighted_random": {
+    "robot": "MELFA",
+    "method": "weighted_random",
+    "scale": 4.0,
+    "lambda_mean": 0.0001,
+    "val_nmse": 0.17474637064025159
+  }
+}

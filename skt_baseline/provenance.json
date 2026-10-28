@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.3.5",
+    "Cython": "3.3.0",
+    "setuptools": "84.0.0",
+    "wheel": "0.48.0",
+    "goodpoints": "0.2.5"
+  },
+  "sources": [
+    {
+      "repo": "https://github.com/ag2435/npr",
+      "resolved_repo": "https://github.com/albertgong1/npr",
+      "commit": "dd5347b2568c006db2f92249c83ccf1ded15d015",
+      "license": "BSD-3-Clause",
+      "archive_sha256": "dbfff17d63560ec826889fd8e633bde656cecbd3659073238455e07a9ce616b5"
+    },
+    {
+      "repo": "https://github.com/ag2435/goodpoints",
+      "commit": "c2450234fb9eb86ef90dca037667a953bd3830c9",
+      "license": "MIT",
+      "archive_sha256": "68997a0e240d9cf873737bbff7d8c8cec601c5d5589f21c6cde9421e34205ca7"
+    }
+  ]
+}

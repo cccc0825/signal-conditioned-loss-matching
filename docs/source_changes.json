@@ -1,0 +1,75 @@
+{
+  "description": "Numerical routines retained. Public paths and integrity guard replace private-workspace paths and internal report hashes. legacy_core contains the six unchanged numerical routines used by this study.",
+  "files": [
+    {
+      "file": "code/method.py",
+      "original_sha256": "4679d728f13e8eacf0145e7b67c4829af1283cbc6183d2281d2ddcb41d2cd444",
+      "published_sha256": "4679d728f13e8eacf0145e7b67c4829af1283cbc6183d2281d2ddcb41d2cd444"
+    },
+    {
+      "file": "code/prepare_development.py",
+      "original_sha256": "14b05074e2e03445e38eae2838d50c0db39135fe543ab5e3ad5506e8e46727db",
+      "published_sha256": "0c0f92fc3d62459c10f3f29793de4a2e911e200c3d434d2163b24000fd41a8e9"
+    },
+    {
+      "file": "code/source_reader.py",
+      "original_sha256": "afdce8fe041709e1d5d294f75781a6eed4cc1f8dd0230cb591d6e0939cbfe9a8",
+      "published_sha256": "afdce8fe041709e1d5d294f75781a6eed4cc1f8dd0230cb591d6e0939cbfe9a8"
+    },
+    {
+      "file": "code/develop.py",
+      "original_sha256": "1019bc844ec8a36c6e82147ab648d0765d62259b484ae791ad2a58bc2ac63ed0",
+      "published_sha256": "1b7ab5089a3847091d4aa2dfe357c675c686f9599c1a9e70b74b7143577aabc1"
+    },
+    {
+      "file": "code/develop_weighted.py",
+      "original_sha256": "0e6dfb98c6db211a7a625a4cbec81c54c8743c612150446fc167640c10a5d7bb",
+      "published_sha256": "34ef2a7e7527e8c9846f50d835c2bfd413eba5dd98462d067487c6e6dc43108e"
+    },
+    {
+      "file": "code/build_evaluation.py",
+      "original_sha256": "4cfc09c8f6e545e7dca368d572ac5113b75c3b33ad800e51b29f381f7c6b0ada",
+      "published_sha256": "4cfc09c8f6e545e7dca368d572ac5113b75c3b33ad800e51b29f381f7c6b0ada"
+    },
+    {
+      "file": "code/prepare_skt_comparison.py",
+      "original_sha256": "2787573fa349029321e681ea25d9bdfa7668842dd68a3de5c3aa6290cdff6288",
+      "published_sha256": "2787573fa349029321e681ea25d9bdfa7668842dd68a3de5c3aa6290cdff6288"
+    },
+    {
+      "file": "code/run_skt_aligned.py",
+      "original_sha256": "8b583ef48de54ae699a38cecda09c341874dfdc56be1ed3bd9ee9cb140ef4664",
+      "published_sha256": "8b583ef48de54ae699a38cecda09c341874dfdc56be1ed3bd9ee9cb140ef4664"
+    },
+    {
+      "file": "code/evaluate.py",
+      "original_sha256": "1fc344d7764ca8b69e9707ba8aa41d17137b80b9833f85dab350e2f7bf03d971",
+      "published_sha256": "6524aadef5a77a19cd4885d1fcb1fbc394abce746f7d0b017f94bbeb85978f6e"
+    },
+    {
+      "file": "code/evaluate_skt.py",
+      "original_sha256": "dcf5a6ec29554f7a5ea5405447cc370bcccf0cd92d9cbb492e3dacb254527946",
+      "published_sha256": "0b90d833328da2e694967778e045d809d88df1d48fa6d7fa30bf602b1dc78f1d"
+    },
+    {
+      "file": "code/analyze.py",
+      "original_sha256": "f65202b1da9dde2695006368731734fdf4a342ec1241f19390e6ab6fd7e0975a",
+      "published_sha256": "21316b4e0ebe04f799fe9e95e90d246a3a4561037a749b69eaf0adda08892d54"
+    },
+    {
+      "file": "code/plot_results.py",
+      "original_sha256": "fc7eb97995f2b29df7f7306e710bb050dafe0e60fcd3b533001fe001e3dcca68",
+      "published_sha256": "fc7eb97995f2b29df7f7306e710bb050dafe0e60fcd3b533001fe001e3dcca68"
+    },
+    {
+      "file": "code/analyze_allocation_cost.py",
+      "original_sha256": "364fa9a4d1ab1bea36c53543469af60aee72bedcdc9c4ce9c4ea6dd387e1bc69",
+      "published_sha256": "364fa9a4d1ab1bea36c53543469af60aee72bedcdc9c4ce9c4ea6dd387e1bc69"
+    },
+    {
+      "file": "code/test_method.py",
+      "original_sha256": "674c45c519d9cf5884d65db8988998f76e28b23062f96952064f190dc1bf142d",
+      "published_sha256": "674c45c519d9cf5884d65db8988998f76e28b23062f96952064f190dc1bf142d"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "evaluation": {
+    "status": "PASS",
+    "metric_rows": 7453,
+    "maximum_absolute_difference": 0.0,
+    "files": {
+      "evaluation_rows.json": {
+        "rows": 5452,
+        "maximum_absolute_difference": 0.0
+      },
+      "skt_evaluation_rows.json": {
+        "rows": 2001,
+        "maximum_absolute_difference": 0.0
+      }
+    },
+    "prediction_files": 771,
+    "python": "3.12.14 (main, Aug 14 2026, 15:24:41) [Clang 22.1.3 ]",
+    "finished_utc": "2026-10-28T11:43:03.027243+00:00"
+  },
+  "selection_rebuild": {
+    "status": "PASS",
+    "dictionary_files_compared": 196,
+    "includes_author_skt_rebuild": false,
+    "finished_utc": "2026-10-28T11:42:19.087522+00:00"
+  },
+  "scope": "Current public-package verification; optional author Cython rebuilding and the 24-configuration development replay were not rerun in this release check. All 771 predictions, including the 60 frozen author-SKT dictionaries, were refitted and checked.",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.6.0"
+  }
+}

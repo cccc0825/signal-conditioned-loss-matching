@@ -1,0 +1,10 @@
+{
+  "kind": "synthetic_unit_only",
+  "d": 21,
+  "q": 7,
+  "s": 0.8,
+  "wrapper_scale": "s*sqrt(d)",
+  "wrapper_labels": "Y*sqrt(2/q)",
+  "max_absolute_gram_error": 1.7763568394002505e-15,
+  "pass": true
+}
